@@ -1,0 +1,266 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background-image: url(cropbg.jpeg);
+}
+.navbar1{
+    background-color: rgb(67, 66, 66);
+    height: 47px;
+    padding: 13px;
+    color: #fff;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.arrow img{
+    width: 100px;
+    height: 65px;
+}
+.arrow1 img{
+    width: 100px;
+    height: 65px;
+    margin-left: 45%;
+}
+.call{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+a4:hover{
+    background-color: #fff;
+}
+.logo{
+    padding-left: 7%;
+}
+.logo svg:hover{
+    color: seagreen;
+}
+.navbar2{
+    border: #fff 1px solid;
+    border-radius: 20px;
+    margin: 30px 130px;
+}
+.text{
+    color: #fff;
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    margin-left: 320px;
+    margin-top: -45px;
+}
+.man1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 83%;
+    margin-top: -5%;
+    padding: 1%;
+   
+}
+.image{
+    height: 60px;
+    width: 150px;
+    margin-right: 86%;
+    margin-top: 10px;
+}
+.man{
+    height: 40px;
+    width: 50px;
+    margin-left: 20%;
+   
+}
+
+.navbar2 a7{
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    padding: 8px 20px;
+    text-align: right;
+    font-weight: normal;
+}
+.para p{
+    color: #fff;
+    text-align: right;
+    font-size: 32px;
+    margin-right: 9%;
+}
+.line{
+    border: 2px solid #fff;
+    position: absolute;
+    width: 100%;
+    margin-top: -18px;
+}
+.vl {
+    border-left: 4px solid #fff;
+    height: 100%;
+    position: absolute;
+    left: 95%;
+    margin-left: -3px;
+    top: 48px;
+  }
+.box{
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    width: 23%;
+    padding: 20px 17px;
+    margin-left: 11%;    
+    margin-top: 10px;
+    box-shadow: 1px 1px 15px 3px seagreen;
+}
+.gren{
+    height: 30px;
+    width: 130px;
+    margin-left: 45%;
+    margin-top: -7%;
+}
+h3{
+    color: #fff;
+}
+.box p{
+    color: #fff;
+    font-size: 17px;
+    margin-top: -1%;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    gap: 9%;
+}
+.int1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+}
+.in1 .in2{
+    display: flex;
+}
+.int2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 104px;
+}
+.in3 .in4{
+    display: flex;
+}
+.menu select{
+    width: 100%;
+    height: 40px;
+    border: 2px solid seagreen;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: medium;
+    margin: 20px 0;
+}
+.box .btn{
+    width: 100%;
+    height: 40px;
+    background-color: seagreen;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.course{
+    color: #fff;
+    font-size: xx-large;
+    margin-left: 66%;
+    margin-top: -18%;
+    width: 25%;
+    text-align: right;
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    padding-left: 94%;
+    margin-top: -17%;
+    z-index: 1;
+    position: absolute;
+}
+.c1, .c2, .c3, .c4{
+    background-color: rgb(204, 110, 38);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.para1{
+    background: linear-gradient(to right, #CC6E26 0%, #373746 67%);
+    width: 27%;
+    margin-top: 4%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.para1 p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    padding: 4%;
+    text-align: center;
+}
+.boxes{
+    background: linear-gradient(to bottom, #CC6E26 0%, #373746 90%);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -60px;
+    gap: 40px;
+    width: 300px;
+    margin-left: 12%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+}
+.txt p{
+    font-size: 15px;
+    font-weight: normal;
+}
+.txt h3, .txt1 h3{
+    text-align: center;
+    font-weight: bold;
+}
+.txt1 p{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
+.boxes1, .boxes2{
+    margin-top: 4%;
+}
+.vertical{
+    border-left: 2px solid #fff;
+    position: absolute;
+    height: 66px;
+    top: 8%;
+}
+.circle .vl{
+    height: 200px;
+    top: 12%;
+    left: 98.9%;
+    border: 3px solid #CC6E26;
+}
+
+
